@@ -1,6 +1,5 @@
 package main.java;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -118,7 +117,7 @@ public class OrientDbJavaExample {
 				Iterable<Vertex> iterVertex = edge.getProperty("projects");
 
 				String projects = "";
-				if (edge.getProperty("projects") != null) {
+				if (iterVertex != null) {
 					Iterator<Vertex> setVertex = iterVertex.iterator();
 					while (setVertex.hasNext()) {
 						Vertex vertex = (Vertex) setVertex.next();

@@ -1,4 +1,5 @@
 # OrientDB JAVA Example
+Based on [OrientDbScalaExample](https://github.com/andreaiacono/OrientDbScalaExample) repository of Andrea Iacono.
 This repo contains a script for starting to use OrientDB with Java language. 
 
 ## Requirements
